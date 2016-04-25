@@ -33,10 +33,23 @@ All components interact with a *git repository*.
 
 A server running a Hello World web app.
 
-### Technologies:
+### Technologies used:
 
 * Github repo
 * Docker
 * Django
+* Selenium
+* virtualenv
 
+### Results
+
+* tests work
+* Docker container created with a single script (Dockerfile)
+* TODO: https://docs.docker.com/compose/django/
+
+### Notes
+
+* make sure to use compatible versions of Selenium/Firefox
+* make sure you do not use Python2 on one dev machine and Python3 on the other
+* do not try `yes | sudo apt-get install docker`
 

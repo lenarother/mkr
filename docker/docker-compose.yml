@@ -1,0 +1,6 @@
+version: '1'
+services:
+  django:
+    image: mkr_django
+    ports:
+    - "8000:8000"
