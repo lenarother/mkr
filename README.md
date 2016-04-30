@@ -43,9 +43,10 @@ A server running a Hello World web app.
 
 ### Results
 
-* tests work
+* git repo initialized (lenarother/mkr)
+* virtualenv set up
+* test works and fails
 * Docker container created with a single script (Dockerfile)
-* TODO: https://docs.docker.com/compose/django/
 
 ### Notes
 
@@ -53,3 +54,13 @@ A server running a Hello World web app.
 * make sure you do not use Python2 on one dev machine and Python3 on the other
 * do not try `yes | sudo apt-get install docker`
 
+
+## Session Three: One-Click
+
+30.4.2016
+
+### Goals
+
+* get Docker to run by `start_docker.sh` 
+
+### Results
