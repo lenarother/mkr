@@ -64,3 +64,11 @@ A server running a Hello World web app.
 * get Docker to run by `start_docker.sh` 
 
 ### Results
+
+* docker-compose installs django
+
+### Notes
+
+* Docker is under heavy development. Make sure you have the latest version, so that the documentation corresponds to your system.
+* Docker installation instructions worked nicely
+* strange phenomenon on KR's machine: reboot, after the reboot terminals did not start, pressing Ctrl-C resulted in a Python error message connected to virtualenv (maybe because leftovers from previous virtualenv session(s)?? Docker took a long while to start after installation, much longer than on MRs machine.
