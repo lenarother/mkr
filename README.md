@@ -75,3 +75,37 @@ A server running a Hello World web app.
 * Docker installation instructions worked nicely
 * strange phenomenon on KR's machine: reboot, after the reboot terminals did not start, pressing Ctrl-C resulted in a Python error message connected to virtualenv (maybe because leftovers from previous virtualenv session(s)?? Docker took a long while to start after installation, much longer than on MRs machine.
 * it took a while to figure out how to create a Django app in the right folder via docker-compose (with the -w option). It is a bit annoying that files created by docker-compose all belong to 'root'.
+
+
+## Session Four: Postgres
+
+1.5.2016
+
+### Goal
+
+* Add a Postgres database that keeps a table with quotes
+* Quotes from the database are highlighted on the web page
+
+### Results
+
+* added example quotes by Sun Tzu and test
+* added postgres container to docker-compose
+* added model, created a migration via docker-compose
+* added a view and HTML template to display quotes
+* created a data entry manually in a django shell session
+--> works
+
+### Notes
+
+* does not pass the one-click test yet, because we wrote the data entry manually
+* found that docker containers tend to accumulate. You can clean them up with:
+
+    docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs --no-run-if-empty docker rm
+
+
+## NEXT
+
+* add fixtures / Django test
+* add Django admin interface
+* make template/view for quotes nicer
+

@@ -1,8 +1,7 @@
 
-docker build -t krother/mkr_django:v1 .
+
+docker-compose run -w /code/hello_world django python manage.py migrate
+
+docker-compose run -w /code/hello_world django python manage.py createsuperuser --username root --email root@testsrv.er 
 
 docker-compose up
-
-# to run the container in interactive mode, try:
-# docker run -t -i krother/mkr_django:v1 /bin/bash~
-
