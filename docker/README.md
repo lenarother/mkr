@@ -22,6 +22,11 @@
 
     CMD python app.py
 
+## Run commands via docker-compose, so that changes apply to local file system
+
+    docker-compose run django django-admin startproject hello_world
+    docker-compose run -w /code/hello_world django python manage.py startapp hello
+    
 ## References
 
 * https://docs.docker.com/compose/overview/
