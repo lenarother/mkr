@@ -14,5 +14,9 @@ class HelloWorldAppTests(TestCase):
         self.driver.get("http://127.0.0.1:8000")
         self.assertTrue('Hello World!' in self.driver.page_source)
 
+    def test_quote(self):
+        self.driver.get("http://127.0.0.1:8000/quote")
+        self.assertTrue('Sun Tzu' in self.driver.page_source)
+
 if __name__ == "__main__":
     main()
