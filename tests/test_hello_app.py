@@ -12,7 +12,7 @@ class HelloWorldAppTests(TestCase):
 
     def test_body(self):
         self.driver.get("http://127.0.0.1:8000")
-        self.assertTrue('Hello world!' in self.driver.page_source)
+        self.assertTrue('Hello World!' in self.driver.page_source)
 
 if __name__ == "__main__":
     main()
