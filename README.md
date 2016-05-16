@@ -102,10 +102,34 @@ A server running a Hello World web app.
 
     docker ps -a | grep 'weeks ago' | awk '{print $1}' | xargs --no-run-if-empty docker rm
 
+    docker ps -a | awk '{print $1}' | xargs --no-run-if-empty docker rm
+
+
+## Session Five: Service Health Check
+
+16.5.2016
+
+### Goal
+
+* more smooth startup
+
+### Results
+
+* problem re-occured: when we start docker-compose so that new containers are created, the process fails because postgres creation is overtaken by Django --> Django doesn't find database because it is not ready yet.
+* problem solved brute-force by sleeping 10 seconds in container before starting Django
+* for more elegant solution wrote shell script that starts services via docker-compose one by one
+* added "service health check": shell script on Django container waits for DB to come up
+
+### Notes
+
+* learned what a 'race condition' is
+* the health check could possibly hang in an endless loop if DB server crashes, therefore not too advisable for production
+
+
 
 ## NEXT
 
 * add fixtures / Django test
 * add Django admin interface
 * make template/view for quotes nicer
-
+* add manage command
