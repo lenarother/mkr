@@ -134,6 +134,12 @@ A server running a Hello World web app.
 
 * build a test that passes without manually adding a DB entry.
 
+### Results
+
+* added test for views in django application
+* used ORM for adding test data
+* used docker-compose to run the test inside the container
+* extended shell script to stop containers if tests fail
 
 ### Notes
 
@@ -144,7 +150,6 @@ A server running a Hello World web app.
 
 ## NEXT
 
-* add fixtures / Django test
 * create fixtures in containver via management command that is used via fabric
 * add Django admin interface
 * make template/view for quotes nicer
