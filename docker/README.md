@@ -30,9 +30,6 @@
     docker-compose run -w /code/hello_world django python manage.py migrate
     docker-compose run -w /code/hello_world django python manage.py shell
     
-    >>> from hello.models import Quotes
-    >>> q = Quotes(author="Sun Tzu", text="The best warfare strategy is to attack the enemy's plans.")
-    >>> q.save()
 
 ## References
 
