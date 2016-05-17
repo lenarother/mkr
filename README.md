@@ -111,7 +111,7 @@ A server running a Hello World web app.
 
 ### Goal
 
-* more smooth startup
+* more smooth startup according to one-click paradigm
 
 ### Results
 
@@ -126,10 +126,26 @@ A server running a Hello World web app.
 * the health check could possibly hang in an endless loop if DB server crashes, therefore not too advisable for production
 
 
+## Session Six: Fixtures
+
+17.5.2016
+
+### Goal
+
+* build a test that passes without manually adding a DB entry.
+
+
+### Notes
+
+* three independent sources recommend not using JSON fixtures, but use the ORM or tomboy instead.
+* problem: how to write a test fixture that runs inside the Django container when the test runs locally? 
+* the start_docker.sh script removes *all* containers on the local machine!
+
 
 ## NEXT
 
 * add fixtures / Django test
+* create fixtures in containver via management command that is used via fabric
 * add Django admin interface
 * make template/view for quotes nicer
 * add manage command
