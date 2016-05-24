@@ -2,6 +2,7 @@ from django.test import TestCase, Client
 from models import Quotes
 from parse_quotes import parse_quotes
 import tempfile
+import os
 
 # Create your tests here.
 class TestHello(TestCase):
@@ -25,11 +26,16 @@ class TestHello(TestCase):
 
 class TestParseQuotes(TestCase):
 
+    def setUp(self):
+        self.tmp = tempfile.NamedTemporaryFile(delete=False)
+
+    def tearDown(self):
+        os.unlink(self.tmp.name)
+
     def test_parse_quotes(self):
         data = "Cookies!\tCookie Monster\n"
-        # tmp = tempfile.NamedTemporaryFile()
-        tmp = open('bla.txt', 'w')
-        tmp.write(data)
-        tmp.close()
-        result = list(parse_quotes('bla.txt'))
+        self.tmp.write(data)
+        self.tmp.close()
+        result = list(parse_quotes(self.tmp.name))
         self.assertListEqual(result, [("Cookies!", "Cookie Monster")])
+
