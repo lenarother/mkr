@@ -148,9 +148,25 @@ A server running a Hello World web app.
 * the start_docker.sh script removes *all* containers on the local machine!
 
 
+## Session seven: 
+
+24.5.2016
+
+### Goal
+
+### Problem
+
+* Startup from last session is broken (tests fail). It seems there is still a race condition.
+* Solution: extra script that tests whether db is up executed before running tests.
+
+![Solving the race condition](doc/race_condition.png)
+
+
 ## NEXT
 
-* create fixtures in containver via management command that is used via fabric
+* create fixtures in container via management command that is used via fabric
 * add Django admin interface
 * make template/view for quotes nicer
 * add manage command
+* improve documentation
+

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="race_condition.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path3822"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="759.60239"
+     inkscape:cy="562.13819"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4353"
+       width="641.42859"
+       height="611.42859"
+       x="10"
+       y="169.50504"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 115,328.79075 0,404.28572"
+       id="path2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path2987"
+       d="m 316.42857,328.79075 0,384.28572"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2,4;stroke-dashoffset:0"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2,4;stroke-dashoffset:0"
+       d="m 522.14286,328.79075 0,384.28572"
+       id="path2989"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2991"
+       width="122.85713"
+       height="30"
+       x="61.428574"
+       y="299.50504"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <rect
+       y="299.50504"
+       x="251.42857"
+       height="30"
+       width="122.85713"
+       id="rect2993"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2995"
+       width="122.85713"
+       height="30"
+       x="458.57144"
+       y="299.50504"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2997"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(16.667517,0)"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion2999"><rect
+           id="rect3001"
+           width="101.42857"
+           height="27.142857"
+           x="470"
+           y="300.93362" /></flowRegion><flowPara
+         id="flowPara3003"
+         style="font-size:20px">django</flowPara></flowRoot>    <flowRoot
+       transform="translate(-168.1904,0)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot3005"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion3007"><rect
+           y="300.93362"
+           x="470"
+           height="27.142857"
+           width="101.42857"
+           id="rect3009" /></flowRegion><flowPara
+         style="font-size:20px"
+         id="flowPara3011">db</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3013"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-397.84888,0)"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion3015"><rect
+           id="rect3017"
+           width="101.42857"
+           height="27.142857"
+           x="470"
+           y="300.93362" /></flowRegion><flowPara
+         id="flowPara3019"
+         style="font-size:20px">localhost</flowPara></flowRoot>    <path
+       inkscape:connector-curvature="0"
+       id="path4273"
+       d="m 316.64875,530.9336 -199.28571,0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85673732;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 312.07124,388.00485 9.42897,0 0,346.57182 -9.42897,0 z"
+       id="rect4283"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4288"
+       d="m 518.79161,565.21932 -402.85714,0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 518.79161,655.21933 -402.85714,0"
+       id="path4298"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4263"
+       d="m 114.28572,627.36219 402.85714,0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 115.71429,388.07646 199.28571,0"
+       id="path3021"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path4286"
+       d="m 517.07124,438.00485 9.42897,0 0,294.42897 -9.42897,0 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.85673732;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4235"
+       d="m 114.28572,439.50503 402.85714,0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4237"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-10.714286,10)"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4239"><rect
+           id="rect4241"
+           width="157.85715"
+           height="24.285715"
+           x="132.85715"
+           y="360.93362" /></flowRegion><flowPara
+         id="flowPara4243">docker-compose run db start</flowPara></flowRoot>    <flowRoot
+       transform="translate(-10.714286,61.428571)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4245"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4247"><rect
+           y="360.93362"
+           x="132.85715"
+           height="17.857134"
+           width="189.28572"
+           id="rect4249" /></flowRegion><flowPara
+         id="flowPara4251">docker-compose run django start</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 114.28572,474.50503 402.85714,0"
+       id="path4253"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4255"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-10.714286,96.428564)"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4257"><rect
+           id="rect4259"
+           width="362.85718"
+           height="22.142862"
+           x="132.85715"
+           y="360.93362" /></flowRegion><flowPara
+         id="flowPara4261">docker-compose run django wait_for_db.sh</flowPara></flowRoot>    <flowRoot
+       transform="translate(-10.714286,249.28572)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4265"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4267"><rect
+           y="360.93362"
+           x="132.85715"
+           height="22.142862"
+           width="362.85718"
+           id="rect4269" /></flowRegion><flowPara
+         id="flowPara4271">docker-compose run django python manage.py test</flowPara></flowRoot>    <flowRoot
+       transform="translate(-10.714286,152.85714)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4275"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4277"><rect
+           y="360.93362"
+           x="132.85715"
+           height="20.714277"
+           width="204.28572"
+           id="rect4279" /></flowRegion><flowPara
+         id="flowPara4281">postgres finished internal startup</flowPara></flowRoot>    <flowRoot
+       transform="translate(-10.714286,187.14285)"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="flowRoot4290"
+       xml:space="preserve"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4292"><rect
+           y="360.93362"
+           x="132.85715"
+           height="22.142862"
+           width="362.85718"
+           id="rect4294" /></flowRegion><flowPara
+         id="flowPara4296">wait_for_db.sh returns</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4300"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-10.714286,277.14286)"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4302"><rect
+           id="rect4304"
+           width="362.85718"
+           height="22.142862"
+           x="132.85715"
+           y="360.93362" /></flowRegion><flowPara
+         id="flowPara4306">tests pass</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="m 114.28572,703.07647 402.85714,0"
+       id="path4308"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4310"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-10.714286,325)"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4312"><rect
+           id="rect4314"
+           width="362.85718"
+           height="22.142862"
+           x="132.85715"
+           y="360.93362" /></flowRegion><flowPara
+         id="flowPara4316">docker-compose logs -f</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4318"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-0.71428572,17.142857)"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4320"><rect
+           id="rect4322"
+           width="514.28571"
+           height="29.285717"
+           x="62.857143"
+           y="186.6479" /></flowRegion><flowPara
+         id="flowPara4324"
+         style="font-size:24px">Avoiding the Race Condition</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4326"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       inkscape:export-filename="/home/krother/projects/mkr/doc/race_condition.png"
+       inkscape:export-xdpi="150.14018"
+       inkscape:export-ydpi="150.14018"><flowRegion
+         id="flowRegion4328"><rect
+           id="rect4330"
+           width="519.28577"
+           height="34.285713"
+           x="61.42857"
+           y="247.36218" /></flowRegion><flowPara
+         id="flowPara4332">The wait_for_db.sh script on the django server performs a health check on the db server before executing any django commands.</flowPara></flowRoot>  </g>
+</svg>
