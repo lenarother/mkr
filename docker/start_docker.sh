@@ -8,7 +8,7 @@ docker-compose create
 docker-compose start db
 docker-compose start django
 
-docker-compose run -w /code/hello_world/ django wait_for_db.sh
+docker-compose run -w /code/hello_world/ django ./wait_for_db.sh
 docker-compose run -w /code/hello_world/ django python manage.py test
 if [ $? -ne 0 ]; then
 	# exit code of last command != 0
