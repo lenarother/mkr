@@ -13,3 +13,4 @@ while [ $n -ne 0 ]; do
     nc -z db 5432
     n=$?
 done
+echo "Database health check.. PASS"
