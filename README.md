@@ -148,25 +148,33 @@ A server running a Hello World web app.
 * the start_docker.sh script removes *all* containers on the local machine!
 
 
-## Session seven: 
+## Session seven: Manage Command
 
 24.5.2016
 
-### Goal
+### Goals
 
-### Problem
+* Problem: Startup from last session is broken (tests fail). It seems there is still a race condition.
+* Add manage command to load quotes into DB
 
-* Startup from last session is broken (tests fail). It seems there is still a race condition.
-* Solution: extra script that tests whether db is up executed before running tests.
+### Results
 
 ![Solving the race condition](doc/race_condition.png)
+
+* Solution: extra script that tests whether db is up executed before running tests.
+* Added parser for quotes
+* Added test for the parser
+* Added management command to add quotes to DB
+* Added test and load functionality via fabric
+* Acceptance tests with Selenium PASS
 
 
 ## NEXT
 
-* create fixtures in container via management command that is used via fabric
+* Create fixtures in container via management command that is used via fabric
 * add Django admin interface
 * make template/view for quotes nicer
-* add manage command
 * improve documentation
+* add CI server that rejects commits with TABs
+* does Django cache automatically if you add 1000 entries to the DB or does it send 1000 queries?
 
