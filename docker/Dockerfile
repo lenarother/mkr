@@ -11,4 +11,3 @@ RUN pip install -r requirements.txt
 ADD . /code/
 RUN apt-get --yes update
 RUN apt-get --yes install netcat
-RUN apt-get install libjpeg8 libjpeg-dev libpng12-0 libpng12-dev
