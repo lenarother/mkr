@@ -22,7 +22,7 @@ from django_nyt.urls import get_pattern as get_nyt_pattern
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^notifications/', get_nyt_pattern()),
-    url(r'^wiki/', get_wiki_pattern())
-    url(r'', include('hello.urls'))
+    url(r'^wiki/', get_wiki_pattern()),
+    url(r'', include('hello.urls')),
 ]
 
