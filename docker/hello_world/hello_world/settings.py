@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hello',
     'django.contrib.sites', # django 1.6.2+
-    # apps for django-wiki:
     'django.contrib.humanize',
     'django_nyt',
     'mptt',
@@ -85,6 +84,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'hello_world.wsgi.application'
 
 SITE_ID = 1
+
 
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
