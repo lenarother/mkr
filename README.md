@@ -156,6 +156,7 @@ A server running a Hello World web app.
 
 * Problem: Startup from last session is broken (tests fail). It seems there is still a race condition.
 * Add manage command to load quotes into DB
+* Create fixtures in container via management command that is used via fabric
 
 ### Results
 
@@ -169,12 +170,41 @@ A server running a Hello World web app.
 * Acceptance tests with Selenium PASS
 
 
+## Session eight: Add an external app
+
+25.5.2016
+
+### Goals
+
+* add the django-wiki app
+
+### Results
+
+* installed Pillow + django-wiki by adding them to Dockerfile
+* extended fabfile to connect to Bash + Python in django container
+* got the wiki to run (Yay!)
+
+### Notes
+
+* when Dockerfile changes, images are not rebuilt automatically, you need docker-compose create --build
+* needed to 'python manage.py createsuperuser' before logging into the site
+* scanned local network with: nmap -sP 192.168.1.0/24
+
+
 ## NEXT
 
-* Create fixtures in container via management command that is used via fabric
+* create superuser automatically from environment var
+* add nginx
+* create packaged Django app
+* package a project for deployment
 * add Django admin interface
 * make template/view for quotes nicer
 * improve documentation
-* add CI server that rejects commits with TABs
+* Jenkins: add CI server that rejects commits with TABs
 * does Django cache automatically if you add 1000 entries to the DB or does it send 1000 queries?
-
+* Ansible / Vagrant / OpenStack / Salt
+* Logstash / Graphana / Kibana
+* Redis
+* RabbitMQ
+* Celery
+* Sentry
