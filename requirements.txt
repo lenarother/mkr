@@ -1,7 +1,7 @@
 Fabric==1.11.1
 argparse==1.2.1
 ecdsa==0.13
-paramiko==1.17.0
+paramiko==2.10.1
 pycrypto==2.6.1
 selenium==2.53.2
 wsgiref==0.1.2
